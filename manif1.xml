@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="github"
+           fetch="https://github.com"
+           revision="master"
+           review="" />
+
+  <project name="jiangxin/goconfig" path="lib/goconfig" groups="common" remote="github" />
+  <project name="jiangxin/multi-log" path="lib/multi-log" groups="common" remote="github" />
+
+  <submanifest name="manif2" project="amjadameur/manifest-test" manifest-name="manif2.xml" path="android2" revision="main"  groups="group2" remote="github" />
+
+  <submanifest name="manif3" project="amjadameur/manifest-test" manifest-name="manif3.xml" path="android3" revision="main"  groups="group3" remote="github" />
+</manifest>
